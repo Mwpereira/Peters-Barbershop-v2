@@ -1,0 +1,11 @@
+{
+  "name": "petersbarbershop",
+  "version": "1.0.0",
+  "description": "Peter's Barbershop Website",
+  "main": "sass/styles.scss",
+  "author": "Michael W. Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.2"
+  }
+}

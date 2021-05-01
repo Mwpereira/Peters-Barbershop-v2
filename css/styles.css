@@ -1,0 +1,53 @@
+html,
+body {
+    scroll-behavior: smooth;
+    scroll-padding: 7vh;
+}
+
+.hero {
+    background: linear-gradient(360deg, rgba(57, 57, 57, 0.5), rgba(57, 57, 57, 0.5)),
+    url('../img/background.jpg') no-repeat fixed top center;
+}
+
+#nav-logo {
+    width: 90px !important;
+    height: 80px !important;
+}
+
+nav {
+    opacity: 95%;
+    transition: box-shadow 500ms linear;
+    transition: background 500ms linear;
+}
+
+.navbar-burger {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title {
+    margin-top: 16px;
+}
+
+.has-background-transparent {
+    background: transparent !important;
+}
+
+#findUs, #hours {
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    #logo {
+        width: 200px !important;
+        height: 207px !important;
+    }
+
+    .title {
+        margin-top: 36px;
+    }
+
+    iframe {
+        height: 75vw;
+    }
+}

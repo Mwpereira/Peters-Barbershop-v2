@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+$family-primary: 'Questrial';
+
+$primary: #191919;
+
+$navbar-item-color: white;
+$navbar-item-hover-color: $primary;
+$navbar-item-hover-background-color: white;
+$navbar-background-color: $primary;
+
+@import '../node_modules/bulma/bulma.sass';
